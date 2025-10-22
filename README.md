@@ -1,0 +1,2 @@
+# gakujo-textCounter
+静岡大学の学務情報システム上で動作する文字数カウンタのChrome拡張機能
