@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Textarea Char Counter",
+  "version": "1.0",
+  "description": "学情システム内のtextareaに文字数カウンターを表示します。",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["https://gakujo.shizuoka.ac.jp/lcu-web/*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ]
+}
